@@ -2,8 +2,6 @@ package th.in.mas.thanawat.api;
 
 import io.reactivex.Observable;
 
-import java.util.concurrent.Callable;
-
 public class LuckyCategory implements Api {
     private String category;
     private int entryNo;

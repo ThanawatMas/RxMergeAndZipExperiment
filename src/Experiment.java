@@ -7,7 +7,7 @@ public class Experiment {
 
     private static final long WAIT_TIME = TimeUnit.SECONDS.toMillis(1);
 
-    private static void wait2Seconds() {
+    private static void wait1Seconds() {
         try {
             Thread.sleep(WAIT_TIME);
             System.out.println();
@@ -24,38 +24,27 @@ public class Experiment {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        wait2Seconds();
-
+        wait1Seconds();
 
         try {
             zipOperation.runSmoothAtSilk();
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        wait2Seconds();
+        wait1Seconds();
 
         try {
             mergeOperation.runStickWithProblem();
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
-        wait2Seconds();
+        wait1Seconds();
 
         try {
             zipOperation.runStickWithProblem();
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        wait2Seconds();
-
-
+        wait1Seconds();
     }
-
-
 }

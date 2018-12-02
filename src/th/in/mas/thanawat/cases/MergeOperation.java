@@ -8,7 +8,7 @@ import th.in.mas.thanawat.api.FortuneQueue;
 import th.in.mas.thanawat.api.LuckyCategory;
 import th.in.mas.thanawat.api.UserProfile;
 
-public class MergeOperation implements RxOperationCase{
+public class MergeOperation implements RxOperationCase {
 
     @Override
     public void runSmoothAtSilk() {
